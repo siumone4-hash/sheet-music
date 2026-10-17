@@ -3,7 +3,7 @@
 \header {
   title = "Rutina Diaria de Calentamiento"
   subtitle = "Ejercicios Básicos para Bajo de 5 Cuerdas"
-  subsubtitle = "Práctica de Lectura, Técnica y Arpegios"
+  subsubtitle = "Práctica de Lectura, Técnica y Arpegios (con Nombres de Notas)"
   tagline = ""
 }
 
@@ -23,28 +23,28 @@ notas = {
 
   % --- EJERCICIO 1: ARAÑA CROMÁTICA ---
   \mark \markup { \bold \box "EJERCICIO 1: Araña Cromática (Dedos 1-2-3-4)" }
-  e,4 f, fis, g, |
-  a,4 bes, b, c |
-  c4 b, bes, a, |
-  g,4 fis, f, e, |
+  e,4^\markup { "Mi" } f,^\markup { "Fa" } fis,^\markup { "Fa#" } g,^\markup { "Sol" } |
+  a,4^\markup { "La" } bes,^\markup { "Sib" } b,^\markup { "Si" } c^\markup { "Do" } |
+  c4^\markup { "Do" } b,^\markup { "Si" } bes,^\markup { "Sib" } a,^\markup { "La" } |
+  g,4^\markup { "Sol" } fis,^\markup { "Fa#" } f,^\markup { "Fa" } e,^\markup { "Mi" } |
 
   \break
 
-  % --- EJERCICIO 2: SALTO DE TÓNICA Y QUINTA (Arpegio) ---
+  % --- EJERCICIO 2: SALTO DE TÓNICA Y QUINTA ---
   \mark \markup { \bold \box "EJERCICIO 2: Saltos de Quinta (Ideal para Acompañamiento)" }
-  c,2 g,2 |
-  a,2 e,2 |
-  f,2 c,2 |
-  g,2 d,2 |
+  c,2^\markup { "Do" } g,2^\markup { "Sol" } |
+  a,2^\markup { "La" } e,2^\markup { "Mi" } |
+  f,2^\markup { "Fa" } c,2^\markup { "Do" } |
+  g,2^\markup { "Sol" } d,2^\markup { "Re" } |
 
   \break
 
   % --- EJERCICIO 3: ESCALA MAYOR BÁSICA EN DO ---
   \mark \markup { \bold \box "EJERCICIO 3: Escala Mayor de Do (Do - Re - Mi - Fa - Sol)" }
-  c,4 d, e, f, |
-  g,4 a, b, c |
-  c4 b, a, g, |
-  f,4 e, d, c, \bar "|."
+  c,4^\markup { "Do" } d,4^\markup { "Re" } e,4^\markup { "Mi" } f,4^\markup { "Fa" } |
+  g,4^\markup { "Sol" } a,4^\markup { "La" } b,4^\markup { "Si" } c4^\markup { "Do" } |
+  c4^\markup { "Do" } b,4^\markup { "Si" } a,4^\markup { "La" } g,4^\markup { "Sol" } |
+  f,4^\markup { "Fa" } e,4^\markup { "Mi" } d,4^\markup { "Re" } c,4^\markup { "Do" } \bar "|."
 }
 
 \score {
